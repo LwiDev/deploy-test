@@ -1,10 +1,11 @@
 {
-    "name": "deploy-test",
-    "version": "1.0.0",
-    "scripts": {
-      "start": "npx serve . -p 3000"
-    },
-    "dependencies": {
-      "serve": "^14.2.1"
-    }
+  "name": "deploy-test",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No build needed for static HTML'",
+    "start": "npx serve . -p 3000"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
   }
+}
